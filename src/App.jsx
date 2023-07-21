@@ -4,9 +4,6 @@ import { Button } from "./components/Button";
 
 function App() {
   const [fields, setFields] = useState({
-    'titulo':'',
-    'sinopse':'',
-    'votos':''
   });
 
   function updateFilm(event){
